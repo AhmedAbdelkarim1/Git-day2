@@ -16,13 +16,13 @@
 -Simple: It’s just a tag name pointing to a commit.
 -No Metadata: Contains no extra information like author name, email, date, or tag message.
 -Generally used for informal or temporary tagging.
-- Creation ----->> git tag v1.7
+-Creation ----->> git tag v1.7
 
 **Annotated
 -Richer Information: Includes metadata like author name, email, date, and a descriptive message.
 -Stored as a separate object in the Git database.
 -Typically used for official releases, detailed tags, or documentation.
-- Creation ----->> git tag -a v1.7 -m "version 1.7"
+-Creation ----->> git tag -a v1.7 -m "version 1.7"
 
 // To list tags:
 ** git tag
